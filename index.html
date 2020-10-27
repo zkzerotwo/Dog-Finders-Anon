@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>YOU WANT DOGGOS?!</title>
+  </head>
+  <body>
+    <main>
+      <form name="doggo-return">
+        <label for="cuantos-doggos">How many doggos?</label>
+        <input type="number" id="cuantos-doggos" name="cuantos-doggos" placeholder="3" min="1" max="50"></input>
+        <button type="submit" autofocus>Get Doggos</button>
+      </form>
+      <h3>OR</h3>
+      <form name="doggo-breed-return">
+        <label for="doggo-breed">Search by breed: </label>
+        <input type="text" id="doggo-breed" name="doggo-breed" placeholder="hound"></input>
+        <button type="submit" autofocus>Get Doggo</button>
+      </form>
+      <section class="results hidden">
+        <h2>Check da doggos!!</h2>
+        <div class="results-img"></div>
+      </section>
+      <section class="error hidden">
+
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
